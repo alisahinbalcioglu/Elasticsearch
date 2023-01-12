@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Elasticsearch.Models.ArticleModel>
+
+@{
+    ViewData["Title"] = "Elasticsearch Demo";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <p style="float: left;">
+                <a asp-action="Create" class="btn btn-success">Create New</a> &nbsp;or&nbsp;
+                <form asp-action="Import">
+                    <button type="submit" class="btn btn-primary">Import JSON Data</button>
+                </form>
+            </p>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <form asp-action="Index" asp-controller="Article" method="get">
+                <div class="form-group">
+                    <input type="search" name="keyword" class="form-control" placeholder="Place your keyword and press enter"/>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@if (Model.Any())
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Author)
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+            var bb = item;
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Author)
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}

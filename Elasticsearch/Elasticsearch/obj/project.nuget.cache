@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "zFu4PwDLfckUh3lObxironlETwov3i5KuQV7vE2TtE86uB/kccUB08KjpPaw6tNbiVTJA4YIsJCuCgw3nwiyfw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alisa\\source\\repos\\Elasticsearch\\Elasticsearch\\Elasticsearch\\Elasticsearch.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alisa\\.nuget\\packages\\elasticsearch.net\\7.17.5\\elasticsearch.net.7.17.5.nupkg.sha512",
+    "C:\\Users\\alisa\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512",
+    "C:\\Users\\alisa\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
+    "C:\\Users\\alisa\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
+    "C:\\Users\\alisa\\.nuget\\packages\\nest\\7.17.5\\nest.7.17.5.nupkg.sha512",
+    "C:\\Users\\alisa\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\alisa\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\alisa\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
